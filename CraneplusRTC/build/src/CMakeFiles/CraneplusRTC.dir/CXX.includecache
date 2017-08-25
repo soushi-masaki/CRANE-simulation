@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CraneplusRTC/SerialCommunication.h
+iostream
+-
+windows.h
+-
+conio.h
+-
+
+/home/rsdlab/Downloads/CraneplusRTC/src/SerialCommunication.cpp
+SerialCommunication.h
+/home/rsdlab/Downloads/CraneplusRTC/src/SerialCommunication.h
+
